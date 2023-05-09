@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+/*Hero section*/
+.hero-section {
+    height: 100vh; /* set the height to the height of the viewport */
+    background-color: #f8f9fa; /* add a background color */
+}
+.hero-md-font{
+    font-family: "Rubik", serif;
+    font-size: 75px;
+}
+
+.aspiration-md-font{
+    font-family: "Rubik", serif;
+    font-size: 35px;
+}
+
+.fav-md{
+    font-size: 55px;
+    color: #1a1d20;
+}
+
+
+/*general*/
+.section-md-heading{
+    font-family: "Rubik", serif;
+    font-size: 45px;
+}
+.underline-md{
+    border-bottom: solid darkred 4px;
+}
+
+.section-height{
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.text-md-font{
+    font-size: 17px;
+    font-family: "Nunito Sans", serif;
+}
+.bg-dark-red{
+    background: darkred;
+}
+
+/*about section*/
+
+
+.profile-md-img{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+/* aligns the row in the center */
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-md-left{
+    text-align: left;
+}
+
+/*Resume Section*/
+.div-md-w{
+    width: 700px;
+}
+
+/*footer*/
+.footer-bg{
+    background-color: #e9ecef;
+}
+/*nav-section*/
+.nav-icon{
+    font-size: 20px;
+    color: #1a1d20;
+}

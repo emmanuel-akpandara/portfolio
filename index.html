@@ -1,332 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"></link>
+    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
 
-  <title>My Portfolio</title>
-  <meta content="This contains my Portfolio" name="description">
-  <meta content="Computer Science, Artificial Intelligence, E-portfolio" name="keywords">
-  <meta content="Emmanuel Akpandara" name="author">
-
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
-
-<body>
-
-    <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Welcome</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Emmanuel Akpandara</h1>
-      <p>I'm <span class="typed" data-typed-items="A Computer Science Student, A Developer in the making, An aspiring Author"></span></p>
-      <div class="social-links">
-        <a href="https://www.instagram.com/3mz.zy/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/emmanuel-akpandara-54472b229/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/emmanuel-akpandara" class="github"><i class="bx bxl-github"></i></a>
-        <a href="/assets/Emmanuel%20Akpandara%20cv.pdf" download="CV_EmmanuelAkpandara" class="btn btn-primary">
-          Download CV
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <main id="main">
-
-   
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Im Emmanuel Akpandara and I'm an Applied Computer Science student in the university of ThomasMore, Welcome to my Portfolio!
-          , feel free to use the navigation on your left to speed by.</p>
+<body class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-end">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero-section"><i class="bi bi-house nav-icon"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-section"><i class="bi bi-person nav-icon"></i> About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills-section"><i class="bi bi-laptop nav-icon"></i> Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project-section"><i class="bi bi-map nav-icon"></i> Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="assets/Emmanuel%20Akpandara%20cv.pdf" download="CV_EmmanuelAkpandara"><i class="bi bi-download nav-icon"></i> My CV</a>
+                </li>
+            </ul>
         </div>
+    </div>
+</nav>
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/profileimg2.jpeg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
+<section class="d-flex justify-content-center align-items-center hero-section" id="hero-section">
+    <div class="row">
+        <div class="text-lg hero-md-font col-12 text-center">
+        EMMANUEL AKPANDARA
+        </div>
+        <div id="aspiration" class="col-12 text-center aspiration-md-font">
+
+        </div>
+        <div class="col-12 text-center mt-2">
+            <a href="https://www.linkedin.com/in/emmanuel-akpandara-54472b229/" class="linkedin"><i class="bx bxl-linkedin fav-md bx-spin-hover"></i></a>
+            <a href="https://github.com/emmanuel-akpandara" class="github"><i class="bx bxl-github fav-md bx-spin-hover"></i></a>
+            <a href="https://www.instagram.com/3mz.zy/" class="instagram"><i class="bx fav-md bxl-instagram bx-spin-hover"></i></a>
+        </div>
+    </div>
+</section>
+<section class="section-height py-4" id="about-section">
+    <div class="text-lg text-center section-md-heading"><span class="underline-md">ABOUT ME</span></div>
+    <div class="row mt-5 d-flex justify-content-center">
+        <div class="col-md-4 text-center">
+                <img src="assets/imgs/profileimg2.jpeg" class="w-50 profile-md-img" alt="my profile image">
+        </div>
+        <div class="col-md-8 w-50 about-font"><p>I'm Emmanuel Akpandara, an Applied Computer Science student
+            in the university of ThomasMore, Welcome to my Portfolio! feel free to use the navigation on your left to speed by.
+        </p>
             <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>31 May 2002</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+32 467 832 910</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Geel, Belgium</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>akpandaraemmanuel@gmail.com</span></li>
-                </ul>
-              </div>
+                <div class="col-6">
+                        <div class="text-md-left mt-1"><i class="bi bi-chevron-right"></i><span style="font-weight:bold">Birthday</span> 31st of May 2002</div>
+                        <div class="text-md-left mt-1"><i class="bi bi-chevron-right"></i><span style="font-weight:bold">Phone</span> +32467832910</div>
+                        <div class="text-md-left mt-1"><i class="bi bi-chevron-right"></i><span style="font-weight:bold">City</span> Geel</div>
+                </div>
+                <div class="col-6">
+                    <div class="text-md-left mt-1"><i class="bi bi-chevron-right"></i><span style="font-weight:bold">Age</span> 20</div>
+                    <div class="text-md-left mt-1"><i class="bi bi-chevron-right"></i><span style="font-weight:bold">Degree</span> Bachelor</div>
+                    <div class="text-md-left mt-1"><i class="bi bi-chevron-right"></i><span style="font-weight:bold">Email</span> akpandaraemmanuel@gmail.com</div>
+                </div>
             </div>
-            <p>
-              Venturing into coding was an interest that grew on me during the pandemic of 2021, and I decided to chase that
-            dream. I come from a family of Nigerians, and we have been living in Abu Dhabi since I was 9 years old. During the pandemic I realised the
-            increase in the need of technology and I wondered if I could be part of what goes on behind the scenes. I like to set new
-            goals for myself to ensure that I keep getting better at what I do. I like being involved in group activities especially when it entails
-            finding solutions for people, apart from that I like to stay physically active and partake in sports when I feel energetic.</p>
-            <p>I hope to have my own business one day that involves making the life of people easier in certain aspects but before that I want
-            to build myself up in key areas of different industries that I know will be beneficial for me in the long run</p>
-          </div>
         </div>
-
-      </div>
-    </section>
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Skills</h2>
+        <div class="text-md-font">
+            <p class="mt-4 mx-5">
+                <span class="fw-bold">V</span>enturing into coding was an interest that grew on me during the pandemic of 2021, and I decided to chase that
+                dream. I come from a family of Nigerians, and we have been living in Abu Dhabi since I was 9 years old. During the pandemic I realised the
+                increase in the need of technology and I wondered if I could be part of what goes on behind the scenes. I like to set new
+                goals for myself to ensure that I keep getting better at what I do. I like being involved in group activities especially when it entails
+                finding solutions for people, apart from that I like to stay physically active and partake in sports when I feel energetic.</p>
+            <p class="mx-5">I hope to have my own business one day that involves making the life of people easier in certain aspects but before that I want
+                to build myself up in key areas of different industries that I know will be beneficial for me in the long run
+            </p>
         </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            
-            <div class="progress">
-              <span class="skill">PHP Laravel <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            
-            <div class="progress">
-              <span class="skill">C# .Net <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Python <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">SQL <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>This section contains a summary of my resume focussing on my Educational background, professional work experience
-          and local work experience</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>The Bells Secondary School Ota, Nigeria</h4>
-              <h5>2018 - 2020</h5>
-              <p>My last 2 years of high school was spent in my home country</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Applied Computer Science: Artificial Intelligence</h4>
-              <h5>2021 - Present</h5>
-              <p><em>ThomasMore University of Applied Sciences, Geel, Belgium</em></p>
-              <p>As of September 2021 I commenced my bachelor's degree in ThomasMore</p>
-            </div>
-
-          
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Order Picker</h4>
-              <h5>2021 - Present</h5>
-              <p><em>Bleckmann, Grobendonk, Belgium </em></p>
-              <ul>
-                <li>Scanning items in the warehouse</li>
-                <li>Movement of scanned items to where it is packaged by fellow workers</li>
-                <li>Movement of trolleys to designated area</li>
-                <li>Arrangements of pallets in the ware house</li>
-              </ul>
-            </div>
-            <h3 class="resume-title">Local Experience</h3>
-            <div class="resume-item">
-              <h4>Sales Person</h4>
-              <h5>2018 - 2021</h5>
-              <p><em>Mother's Food Business, Abu Dhabi, UAE </em></p>
-              <ul>
-                <li>Packaging food for customers</li>
-                <li>Cutting up frozen meat</li>
-                <li>Handling Orders in her absence</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <section id="projects" class="projects section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-          <div>
-            <h3>Staff Management Prototype with Axure</h3>
-            <p>This is project involved other team members and ofcourse my own person input</p>
-            <h5 class="mt-3 mb-3">Background Story</h5>
-            <p>Our client, an Au Pair, needed an application to manage tasks, staff, important documents and other activities in the
-            house-hold due to the fact that some of these were managed digitally or on paper which made her work inefficient. We conducted interviews
-            with our client to get a feel of her needs and any improvements or additions that could be made.</p>
-            <h5 class="mt-3 mb-3">My Input</h5>
-            <p>We decided to build a protoype working on axure that shows the required functionalities.</p>
-            <div class="d-flex">
-              <figure><img src="assets/img/functionalities.png" alt="functionalities" width="450px"></figure>
-              <figure><img src="assets/img/createInvoice.png" alt="creating an invoice" width="450px"></figure>
-              <figure><img src="assets/img/viewMealSubscription.png" alt="view meal subscription" width="450px"></figure>
-            </div>
-            <p>Out of all the functionalities present in the prototype, I helped make some but the major ones I did were functionalities that entailed managing invoices for all users and functionalities
-              that were related to Meal subscriptions and viewing the subscriptions</p>
-            <h5 class="mt-3 mb-3">My Take-away</h5>
-            <p>I learnt how to be a better professional when having a meeting with a client which includes punctuality,
-            mentally or physically taking notes of the clients interests or dislikes and importantly asking important questions to ensure satisfaction and
-            clarity on both sides. On the technical side, I gradually became familiar with the axure application which is important which
-            was important to portray the client's interests almost realistically</p>
-          </div>
-          <div class="mt-5">
-            <h3>My Winforms App</h3>
-            <h5 class="mt-3 mb-3">Background Story</h5>
-            <p>In this project I created an application based on Windows forms that saves results of an API in my sqlite databse.
-            This application was written with C sharp, with some help of YouTube videos and online documentation.</p>
-            <p>In this case I modified the application to save specific values that was returned from a specific API, here the API generates
-            activities a person can do when they are bored which then saved in the database</p>
-
-            <h5 class="mt-3 mb-3">My Take-away</h5>
-            <p>The main goal for this project was to save the activities in a sqlite database which was succesfull, but before I
-            was able to achieve this, I was really confused on where to start from because it was my first time using winforms
-            and sqlite but the internet proved to be a really useful resource for me. I learnt some new Csharp terminologies and how
-            similar it is to Java and I also realized how useful sqlite can be for smaller applications</p>
-
-            <div class="mt-2"><iframe width="700" height="792" src="https://www.youtube.com/embed/aKIjzcm7x08" title="My WINFORMS APP"
-                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-
-            <div class="d-flex mt-2">
-            <figure>
-              <figcaption>Json extracted from API</figcaption>
-              <img src="assets/img/apiActivity.png" alt="activity from api" width="700px"></figure>
-              <figure>
-                <figcaption>The activity portion is saved in the sqlite database</figcaption>
-                <img src="assets/img/sqliteActivity.png" alt="activity in sqlite database"></figure>
-
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-  </main>>
-  <footer id="footer">
-    <div class="container">
-      <p>“We cannot solve problems with the kind of thinking we employed when we came up with them.” — Albert Einstein</p>
-      <div class="social-links">
-        <a href="https://www.instagram.com/3mz.zy/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/emmanuel-akpandara-54472b229/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/emmanuel-akpandara" class="github"><i class="bx bxl-github"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>Emmanuel-Akpandara</span></strong>. All Rights Reserved
-      </div>
     </div>
-  </footer>
+</section>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<section class="section-height py-4" id="skills-section">
+    <div class="text-lg text-center section-md-heading"><span class="underline-md">SKILLS</span></div>
+<div class="row text-md-font">
+    <div class="col-md-6 px-5">
+        <div class="mt-2">
+            <div>HTML</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"  style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+        </div>
+        <div class="mt-2">
+            <div>C# .NET</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"  style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+            </div>
+        </div>
+        <div class="mt-2">
+            <div>PHP LARAVEL</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"  style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+        </div>
+        <div class="mt-2">
+            <div>HTML</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"  style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 px-5">
+        <div class="mt-2">
+            <div>JAVA</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"  style="width: 75%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+        </div>
+        <div class="mt-2">
+            <div>PYTHON</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"  style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">85%</div>
+            </div>
+        </div>
+        <div class="mt-2">
+            <div>SQL</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"  style="width: 85%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+        </div>
+        <div class="mt-2">
+            <div>JAVASCRIPT</div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"  style="width: 75%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="section-height py-4" id="resume-section">
+    <div class="text-lg text-center section-md-heading"><span class="underline-md">RESUME</span></div>
+    <div class="my-2 mt-4 text-md-font">
+        <div class="d-flex justify-content-evenly flex-row">
+        <div class="div-md-w">
+            <div>
+                <h4 class="fw-bold"><i class="bx bx-caret-left-circle text-md-left"></i> Education</h4>
+                <div>
+                    <div class="fw-semibold  text-md-left px-3"><i class="bi bi-chevron-right"></i>APPLIED COMPUTER SCIENCE: ARTIFICIAL INTELLIGENCE</div>
+                    <div class=" text-md-left px-5">2021 till date: BCS at Thomas More Belgium</div>
+                    <div class="fw-semibold text-md-left mt-1 px-3"><i class="bi bi-chevron-right"></i>THE BELLS SECONDARY SCHOOL OTA, NIGERIA</div>
+                    <div class="text-md-left px-5">2018 - 2020: Last 2 years of High school in Nigeria</div>
+                    <div class="fw-semibold text-md-left mt-1 px-3"><i class="bi bi-chevron-right"></i>GEMS BRITISH SCHOOLS</div>
+                    <div class=" text-md-left px-5">2013 - 2018: Early part of my school years in Abu Dhabi</div>
+                </div>
+            </div>
+        </div>
+        <div class="div-md-w">
+            <div>
+                <h4 class="fw-bold"><i class="bx bx-caret-left-circle text-md-left"></i> Professional Experience</h4>
+                <div>
+                    <div class="fw-semibold text-md-left px-3"><i class="bi bi-chevron-right"></i>ORDER PICKER: Bleckmann Belgium</div>
+                    <div class=" text-md-left px-5 m-1"><i class="bi bi-circle-fill"></i> Scanning items in the warehouse</div>
+                    <div class=" text-md-left px-5 m-1"><i class="bi bi-circle-fill"></i> Movement of scanned items to where it is packaged by fellow workers</div>
+                    <div class=" text-md-left px-5 m-1"><i class="bi bi-circle-fill"></i> Movement of trolleys to designated area</div>
+                    <div class=" text-md-left px-5 m-1"><i class="bi bi-circle-fill"></i> Packing and arrangements of items in the ware house</div>
+                    <div class=" text-md-left px-5 m-1"><i class="bi bi-circle-fill"></i> Offloading boxes from trucks and sorting them</div>
+                </div>
+            </div>
+        </div>
+            <div class="div-md-w">
+                <div>
+                    <h4 class="fw-bold"><i class="bx bx-caret-left-circle text-md-left"></i> Local Experience</h4>
+                    <div>
+                        <div class="fw-semibold text-md-left px-3"><i class="bi bi-chevron-right"></i>2018 - 2021: SALES PERSON</div>
+                        <div class=" text-md-left px-5 m-1"><i class="bi bi-circle-fill"></i> Packaging food for customers</div>
+                        <div class=" text-md-left px-5 m-1"><i class="bi bi-circle-fill"></i> Cutting up frozen meat</div>
+                        <div class=" text-md-left px-5 m-1"><i class="bi bi-circle-fill"></i> Handling Orders in her absence</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+</section>
+<section class="section-height py-4" id="project-section">
+    <div class="text-lg text-center section-md-heading"><span class="underline-md">PROJECTS</span></div>
+<div class="text-center">
+    <div class="accordion my-5 " id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Staff Management Web Application with Laravel PHP
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h4>Background Story</h4>
+                    <p>
+                        Our client, an Au Pair, needed an application to manage tasks, staff, important documents and other activities in the house-hold due to the fact that some of these were managed
+                        digitally or on paper which made her work inefficient. We conducted interviews with our client to get a feel of her needs and any improvements or additions that could be made.
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>My Input</h4>
+                            <p>We decided to build a Web Application that shows the required functionalities.
+                                Out of all the functionalities present in the application, I helped make some but the major ones I did were functionalities that entailed managing invoices
+                                for all users and functionalities that were related to Meal subscriptions, viewing the subscriptions and managing documentation</p>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/imgs/suscribe%20for%20meals.png" class="d-block w-100" alt="Subscribe for meal pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/Manage%20meal%20types.png" class="d-block w-100" alt="manage meal pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/manage%20paperwork.png" class="d-block w-100" alt="manage paper work pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/managebar.png" class="d-block w-75">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>My Take away</h4>
+                            <p>
+                                I learnt how to be a better professional when having a meeting with a client which includes punctuality, mentally or physically taking notes of the clients interests or dislikes and importantly asking important questions to ensure satisfaction and clarity on both sides. On the technical side, I gradually became familiar with
+                                the axure application which is important which was important to portray the client's interests almost realistically.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    My Winforms App
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h4>Background Story</h4>
+                    <p>
+                            In this project I created an application based on Windows forms that saves results of an API
+                        in my sqlite database. This application was written with C sharp, with some help of YouTube videos and online documentation.
 
+                        In this case I modified the application to save specific values that was returned from a specific
+                        API, here the API generates activities a person can do when they are bored which then saved in the database
+                    </p>
+                    <div class="row">
+                        <h4>My Take-away</h4>
+                        <div class="col-md-6">
+                            <p>The main goal for this project was to save the activities in a sqlite database which was successfull, but before I was able to achieve this,
+                                I was really confused on where to start from because it was my first time using winforms and sqlite but the internet proved to be a really useful resource for me.
+                            I learnt some new Csharp terminologies and how similar it is to Java and I also realized how useful sqlite can be for smaller applications
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <iframe width="400" height="400" src="https://www.youtube.com/embed/aKIjzcm7x08" title="My WINFORMS APP"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Lst-C Staff Management Prototype with Axure
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h4>Background Story</h4>
+                    <p>
+                        In this project my team and I had to make a prototype using axure to simulate an application that facilitates interactions between
+                        students and companies, in this application the students could schedule interviews with the companies, give feedback, receive updates in their dashboard
+                        and in the same fashion the companies could post out important information for the students.
+                    </p>
+                    <h4>My Take-away</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>This was the first time I ever worked with Axure, so I had to search all over YouTube and looked at Axure's online documentation
+                            to learn how to start using it. Most of my team-mates were already good at using it, so I learn't alot from them. Overall I realised this
+                            application was incredibly good for simulating how an application would work on application level.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <div id="ExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#ExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#ExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#ExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#ExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/imgs/makeannouncement.png" class="d-block w-100" alt="Subscribe for meal pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/managetimeslots.png" class="d-block w-100" alt="manage meal pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/companyInformation.png" class="d-block w-100" alt="manage paper work pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/manage%20student%20files.png" class="d-block w-75">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#ExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#ExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
 
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <script src="assets/js/main.js"></script>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    Ecommerce Website with Java Script
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h4>Background</h4>
+                    <p>Javascript was a weak point for me in my first year, so during the summer I thought I'd go the extra mile and
+                        create an e-commerce store with the little JavaScript I knew and grow from there. This would mean that I had to revise the information
+                        on canvas and watch YouTube tutorials on how to achieve what I had in mind.
+                    </p>
+                    <h4>My Take-away</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Along the way I discovered a lot that I needed to know to achieve what I wanted, I decided to make a simple CSS and Javascript store
+                                in which Men and Women could buy luxury Jackets, this meant that I had to source for pictures and edit them with canva to be implemented
+                                in the website, overall my coding logic improved which indirectly helped me with the python exam I had later during the summer.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="Indicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#Indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#Indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#Indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#Indicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/imgs/store%20homepage.png" class="d-block w-100" alt="Subscribe for meal pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/store%20guys%20section.png" class="d-block w-100" alt="manage meal pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/store%20women%20section.png" class="d-block w-100" alt="manage paper work pic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/imgs/store%20cart.png" class="d-block w-75">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#Indicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#Indicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+    <footer class="footer-bg mb-2 mt-3" id="footer">
+        <div class="container">
+            <p>“We cannot solve problems with the kind of thinking we employed when we came up with them.” — Albert Einstein</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/3mz.zy/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-akpandara-54472b229/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/emmanuel-akpandara" class="github"><i class="bx bxl-github"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; Copyright <strong><span>Emmanuel-Akpandara</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+<script src="js/portfolio.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
